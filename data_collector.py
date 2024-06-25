@@ -29,7 +29,7 @@ for label in labels:
         imagename=os.path.join(IMAGE_PATH,label,label+'.'+'{}.jpg'.format(str(uuid.uuid1())))
         cv2.imwrite(imagename,frame)
         cv2.imshow('frame',frame)
-        time.sleep(2)
+        time.sleep(4)
 
 
         if cv2.waitKey(1) & 0xFF==ord('q'):
