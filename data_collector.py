@@ -21,7 +21,7 @@ for label in labels:
 
     print(f'collecting image for {label}')
 
-    time.sleep(4)
+    time.sleep(5)
 
     for imgnum in range(number_of_images):
         ref, frame =cap.read()
